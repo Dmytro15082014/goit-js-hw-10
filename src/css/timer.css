@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+.box-timer{
+    padding-top: 36px;
+    padding-left: 156px;
+    background-color: #fff;
+}
+#datetime-picker{
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 272px;
+    height: 40px;
+    padding: 8px 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+#datetime-picker:hover{
+    border: 1px solid #000;
+}
+#datetime-picker:active {
+    border: 1px solid #4e75ff;
+}
+#datetime-picker:disabled {
+    background-color: #fafafa;
+    color: #808080;
+}
+.timer-panel{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 32px;
+}
+.btn-start{
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 75px;
+    height: 40px;
+    background-color: #4e75ff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+.btn-start:hover{
+    background-color: #6c8cff;
+}
+.btn-start:disabled{
+    background-color: #cfcfcf;
+    color: #989898;
+}
+
+.timer {
+    display: flex;
+    gap: 24px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 3px;
+    
+}
+
+.value {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #2e2f42;
+}
