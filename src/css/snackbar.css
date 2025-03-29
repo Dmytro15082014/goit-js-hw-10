@@ -1,0 +1,68 @@
+.snackbar-form{
+    padding: 36px 156px;
+    background-color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+.form>label{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;    
+}
+
+.form>label>input{
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+    margin-bottom: 16px;
+    padding: 8px;
+}
+
+.form>fieldset{
+    width: 360px;
+    height: 78px;
+    border-radius: 4px;
+    stroke-width: 1px;
+    stroke: #808080;
+    padding: 24px 48px 8px;
+    display: flex;
+    gap: 48px;
+    margin-bottom: 24px;
+}
+.form>fieldset>label{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.form>fieldset>label>input{
+    border: 1px solid #757575;
+    border-radius: 14px;
+    width: 20px;
+    height: 20px;
+}
+input[type="radio"]:checked{
+    background-color: #4e75ff;
+}
+
+.form>button{
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 360px;
+    height: 40px;
+    background-color: #4e75ff;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    transition: background-color, cubic-bezier(0.075, 0.82, 0.165, 1), 250ms;
+}
+
+.form>button:hover{
+    background-color: #6c8cff;
+}
